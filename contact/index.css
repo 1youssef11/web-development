@@ -1,0 +1,54 @@
+body {
+    font-family: 'Righteous', cursive;
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-size: 25px;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container h2 {
+    width: fit-content;
+    background-image: linear-gradient( to right, hsl(198, 60%, 50%)50% ,hsl(176, 68%, 64%));
+    padding: 1px 15px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px 0;
+}
+.container ul li {
+    margin: 50px 0;
+    transition: .8s;
+}
+.container ul li:hover {
+    transform: scale(1.2) rotate(25deg);
+
+}
+.container ul li:hover a {
+    color:teal
+}
+a {
+    text-decoration: none;
+    color: rgb(132, 52, 236);
+}
+ul p {
+    animation-name: change-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: .3s;
+    animation-delay: 1s;
+    animation-direction: alternate ;
+}
+@keyframes change-color {
+    0% {color:rgb(194, 255, 255)}
+    50%{color: rgb(21, 226, 175);}
+    100%{color: rgb(29, 120, 194);}
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke
+}    
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    
+}
+.container img {
+    width: 35%;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.cars {
+    
+    background-color: rgb(6, 129, 129);
+}
+.home {
+    margin-bottom:40px;
+    background-color: rgb(13, 99, 148);
+}
+.phone {
+    
+    background-color: rgb(13, 34, 63);
+}
