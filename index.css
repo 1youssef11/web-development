@@ -87,14 +87,44 @@ body {
     }
     .intro img {
         width: 250px;
+        margin: auto;
     }
-    .header img , nav {
+    .header img , .header nav {
         width: 40%;
+        margin: auto;
     }
-    .footer img ,div {
-        width: 40%;
+    .footer img ,.footer div {
+        width: 90% !important;
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:390px) and (max-width:450px){
+    .header .container img , .header .container nav {
+        width: 30% !important;
+        
+    }
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer img ,.footer div {
+        width: 90% !important;
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
-    }
 }
 .start {
     margin: 20px auto 50px;
