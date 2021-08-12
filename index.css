@@ -70,18 +70,23 @@ body {
     width: 100px;
 }
 @media (max-width: 767px){
-    .section .container .cont {
+    .section .container .cont , .intro h2 ,.intro p {
         width: 90%;
         text-align: center;
         margin: auto;
         align-items: center;
+        font-size: 18px !important;
+        
     }
-    .section .container {
+    .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin: auto;
         width: 100%;
+    }
+    .intro img {
+        width: 200px;
     }
 }
 .start {
